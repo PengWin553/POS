@@ -1,0 +1,22 @@
+-- SQLite
+INSERT INTO Products (ProductName, Price, Stock, Unit, SKU, CategoryId)
+VALUES
+('Banana', 0.30, 150, 'piece', 'FRU002', 1),
+('Orange', 0.60, 80, 'piece', 'FRU003', 1),
+('Strawberry', 2.00, 50, 'box', 'FRU004', 1),
+('Grapes', 2.50, 40, 'bunch', 'FRU005', 1),
+('Pineapple', 3.00, 30, 'piece', 'FRU006', 1),
+('Carrot', 0.40, 120, 'piece', 'VEG001', 2),
+('Broccoli', 1.20, 60, 'head', 'VEG002', 2),
+('Spinach', 1.50, 40, 'bunch', 'VEG003', 2),
+('Tomato', 0.30, 100, 'piece', 'VEG004', 2),
+('Cucumber', 0.70, 70, 'piece', 'VEG005', 2),
+('Bell Pepper', 0.80, 60, 'piece', 'VEG006', 2),
+('Potato Chips', 2.00, 80, 'bag', 'JNK001', 3),
+('Chocolate Bar', 1.50, 100, 'bar', 'JNK002', 3),
+('Soda', 1.00, 120, 'can', 'JNK003', 3),
+('Candy', 0.50, 200, 'pack', 'JNK004', 3),
+('Popcorn', 2.50, 50, 'bag', 'JNK005', 3),
+('Ice Cream', 3.50, 30, 'tub', 'JNK006', 3),
+('Cookies', 2.20, 70, 'pack', 'JNK007', 3),
+('Nachos', 1.80, 60, 'bag', 'JNK008', 3);

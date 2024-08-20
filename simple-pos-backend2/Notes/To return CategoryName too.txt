@@ -1,0 +1,7 @@
+const string query = " SELECT p.*, c.CategoryName FROM Products p INNER JOIN Categories c ON p.CategoryId = c.CategoryId ORDER BY p.ProductId DESC";
+
+    // public string? CategoryName { get; set; }
+
+THIS IS NOT WORKING:
+
+Select tp.TransactionProductId, tp.TransactionId, tp.ProductId, p.ProductName, p.Price, tp.Quantity from TransactionProducts tp Inner Join Products p on tp.ProductId = p.ProductId Where tp.TransactionId = @TransactionId

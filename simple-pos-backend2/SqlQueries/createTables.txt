@@ -1,0 +1,27 @@
+CREATE TABLE Categories (
+    CategoryId integer PRIMARY KEY AUTOINCREMENT,
+    CategoryName text NULL
+);
+
+CREATE TABLE Products(
+    ProductId integer PRIMARY KEY AUTOINCREMENT,
+    ProductName text NULL,
+    Price real NULL,
+    Stock integer NULL,
+    Unit text NULL,
+    SKU text NULL,
+    CategoryId integer NULL
+);
+
+CREATE TABLE TransactionHistory(
+    TransactionId INTEGER PRIMARY KEY AUTOINCREMENT,
+    TransactionDate TEXT NULL,
+    TotalAmount REAL NULL
+);
+
+CREATE TABLE TransactionProducts(
+    TransactionProductId INTEGER PRIMARY KEY AUTOINCREMENT,
+    TransactionId INTEGER NULL,
+    ProductId INTEGER NULL,
+    Quantity INTEGER NULL
+);
