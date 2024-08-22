@@ -1,5 +1,5 @@
 # POS
-This POS system is built using ReactJS for the front-end and C# Web API with ASP.NET Core for the back-end. SQLite is used for the database, with Dapper as the ORM for efficient database interactions.
+This POS (Point of Sale) system is built using ReactJS for the front-end and C# Web API with ASP.NET Core for the back-end. SQLite is used for the database, with Dapper as the ORM for efficient database interactions.
 
 Please note that this was only used for educational purposes.
 
@@ -14,7 +14,7 @@ Prerequisites:
 • Sqlite
 • Node JS (LTS)
 
-1. Opening the project folder in Visual Studio Code.
+1. Open the project folder in Visual Studio Code.
 2. Open a new terminal, then type and run this command: cd simple-pos-backend2
 3. Now, in that same terminal, type and run: dotnet watch run
 
