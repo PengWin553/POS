@@ -3,7 +3,7 @@ This POS (Point of Sale) system is built using ReactJS for the front-end and C# 
 
 Please note that this was only used for educational purposes.
 
-____________________ :⁠-⁠)
+____________________
 
 **Setup Steps**
 
