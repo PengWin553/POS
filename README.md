@@ -23,7 +23,7 @@ This should open Swagger on your browser.
 4. Now, in a separate or new terminal, type and run: cd simple-pos-frontend2
 5. Then, type and run: npm i
 6. Then, type and run: npm run dev
-7. Ctrl + click the link
+7. Ctrl+click the link
 8. You're good to go!
 
 
